@@ -1,0 +1,36 @@
+// 2211104051 Ade fatkhul anam
+
+a)
+
+#include <iostream>
+
+using namespace std;
+
+int main() {
+    string namaLengkap, nim;
+    cout << "Siapa nama anda: ";
+    getline(cin, namaLengkap); // Menggunakan getline untuk nama lengkap
+    cout << "Berapa nim anda? ";
+    cin >> nim;
+    cout << "Nama saya: " << namaLengkap << endl;
+    cout << "NIM saya: " << nim << endl;
+    return 0;
+}
+
+
+b)
+
+#include <iostream>
+
+using namespace std;
+
+int main() {
+    string namaPertama, nim;
+    cout << "Masukkan nama pertama anda: ";
+    cin >> namaPertama; // Menggunakan cin untuk nama pertama
+    cout << "Berapa nim anda? ";
+    cin >> nim;
+    cout << "Nama pertama saya: " << namaPertama << endl;
+    cout << "NIM saya: " << nim << endl;
+    return 0;
+}
