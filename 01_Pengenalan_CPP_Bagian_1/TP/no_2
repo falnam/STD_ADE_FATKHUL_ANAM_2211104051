@@ -1,0 +1,36 @@
+// 2211104051 Ade fatkhul anam
+
+#include <iostream>
+
+using namespace std;
+
+int main() {
+    int bil1 = 3, bil2 = 4, hasili;
+    float bil3 = 3.0, bil4 = 4.0, hasili2;
+
+    hasili = bil1 + bil2;
+    cout << hasili << endl;
+
+    hasili = bil1 - bil2;
+    cout << hasili << endl;
+
+    hasili = bil1 * bil2;
+    cout << hasili << endl;
+
+    hasili = bil1 / bil2;  // integer division
+    cout << hasili << endl;
+
+    hasili = bil2 / bil1;  // integer division
+    cout << hasili << endl;
+
+    hasili = bil1 % bil2;  // modulo
+    cout << hasili << endl;
+
+    hasili = bil2 % bil1;  // modulo
+    cout << hasili << endl;
+
+    hasili2 = bil3 / bil4;
+    cout << hasili2 << endl;
+
+    return 0;
+}
