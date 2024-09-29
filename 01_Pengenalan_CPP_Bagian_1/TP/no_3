@@ -1,0 +1,29 @@
+// 2211104051 Ade fatkhul anam
+
+#include <iostream>
+
+using namespace std;
+
+int main() {
+    int bil1 = 2, bil2 = 3, hasili;
+    
+    hasili = bil1 > bil2;
+    cout << hasili << endl;
+    
+    hasili = bil1 >= bil2;
+    cout << hasili << endl;
+    
+    hasili = bil1 < bil2;
+    cout << hasili << endl;
+    
+    hasili = bil1 <= bil2;
+    cout << hasili << endl;
+    
+    hasili = bil1 == bil2;
+    cout << hasili << endl;
+    
+    hasili = bil1 != bil2;
+    cout << hasil << endl;
+    
+    return 0;
+}
